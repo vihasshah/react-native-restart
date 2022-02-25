@@ -1,0 +1,7 @@
+<resources>
+    <style name="FullHeightDialog" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">#0061AF</item>
+        <item name="android:background">#00ffffff</item>
+    </style>
+</resources>
