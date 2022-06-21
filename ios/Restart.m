@@ -71,7 +71,7 @@ RCT_EXPORT_MODULE(RNRestart)
     RCTTriggerReloadCommandListeners(@"react-native-restart: Restart");
 }
 
-- (UIColor )colorFromHexString:(NSString )hexString {
+- (UIColor *)colorFromHexString:(NSString *)hexString {
     unsigned rgbValue = 0;
     NSScanner *scanner = [NSScanner scannerWithString:hexString];
     [scanner setScanLocation:1]; // bypass '#' character
